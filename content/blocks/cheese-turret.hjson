@@ -1,0 +1,39 @@
+type: DoubleTurret
+name: Cheese Turret
+description: Shredded cheese machine gun.
+health: 200
+targetPriority: turret
+size: 1
+reload: 4
+range: 10000
+ammoUseEffect: shellEjectSmall
+inaccuracy: 1
+rotatespeed: 20
+ammo: {
+  cheddar-cheese: {
+    bulletSprite: cheese-turret
+    speed: 99999
+    damage: 9999999
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 999999
+  },
+  cheese: {
+    bulletSprite: cheese-turret
+    speed: 99999
+    damage: 9999999
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 99999
+  }
+}
+requirements: [
+  cheese/10
+  copper/10
+]
+category: turret
+research: duo

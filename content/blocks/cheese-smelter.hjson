@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: "Cheese Smelter"
+description: "Melts cheese down for use in crafting."
+liquidCapacity: 50
+outputLiquid: {
+  liquid: liquid-cheese
+  amount: 7
+}
+size: 2
+hasPower: true
+hasLiquids: true
+craftTime: 10
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.6
+  item: cheese
+}
+requirements: [
+  cheese/50
+  copper/80
+  silicon/20
+]
+category: crafting
+research: kiln
+idleSound: respawning
+idleSoundVolume: 0.5

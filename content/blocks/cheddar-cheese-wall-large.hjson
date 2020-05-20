@@ -1,0 +1,10 @@
+name: Cheddar Cheese Wall Large
+description: A wall made of cheddar cheese.
+type: Wall
+health: 6969
+size: 2
+requirements: [
+  cheddar-cheese/24
+]
+category: defense
+research: copper-wall

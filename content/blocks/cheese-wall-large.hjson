@@ -1,0 +1,10 @@
+name: Cheese Wall Large
+description: A wall made of cheese.
+type: Wall
+health: 6969
+size: 2
+requirements: [
+  cheese/24
+]
+category: defense
+research: copper-wall

@@ -1,0 +1,6 @@
+name: cheese-mod
+displayName: Cheese Mod
+author: Lolbird123
+description: Adds cheese to the game. Im not addicted to cheese I swear.
+version: "2.0"
+minGameVersion: "100.3"

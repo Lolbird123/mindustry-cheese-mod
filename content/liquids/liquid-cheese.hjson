@@ -1,0 +1,6 @@
+name: Liquid Cheese
+description: Liquid cheese. May I need to say more?
+temperature: 0.9
+viscosity: 0.8
+effect: melting
+color: FDC603

@@ -1,0 +1,5 @@
+type: material
+name: Cheese
+description: Cheese.
+cost: 1
+color: dcd16b
